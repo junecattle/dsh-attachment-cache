@@ -1,5 +1,7 @@
 # dsh-attachment-cache
 
+<img src="assets/icon-180.png" width="64" align="right" alt="">
+
 [![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 

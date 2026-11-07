@@ -34,6 +34,7 @@ const ROOT_FILES = [
   'CHANGELOG.md',
   '.gitignore',
   'market/dsh-attachment-cache.yml',
+  'assets/icon-180.png',
 ];
 const SCAN_DIRS = ['locale', 'scripts', 'market'];
 const SCAN_EXT = new Set(['.json', '.yml', '.yaml', '.mjs', '.js']);
