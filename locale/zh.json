@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "附件缓存管理",
+    "description": "按对话查看、预览并清理 attachments 目录中的图片与文件缓存"
+  },
+  "panel": "附件缓存"
+}

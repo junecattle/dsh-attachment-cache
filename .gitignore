@@ -1,0 +1,8 @@
+node_modules/
+tools/
+*.zip
+*.log
+pr-body.md
+gh-*.mjs
+catalog-*.mjs
+.DS_Store

@@ -1,0 +1,58 @@
+{
+  "name": "dsh-attachment-cache",
+  "version": "0.1.0",
+  "description": "Browse, prune and relocate the durable attachment store that DeepSeek Harness keeps under ~/.dsh/attachments.",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "locale/*.json"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "attachments",
+    "storage",
+    "cache"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junecattle/dsh-attachment-cache.git"
+  },
+  "homepage": "https://github.com/junecattle/dsh-attachment-cache#readme",
+  "bugs": {
+    "url": "https://github.com/junecattle/dsh-attachment-cache/issues"
+  },
+  "author": "junecattle",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "check": "node scripts/check.mjs"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-renderer",
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ]
+    }
+  }
+}

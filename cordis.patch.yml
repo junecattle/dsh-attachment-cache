@@ -1,0 +1,4 @@
+- insert:
+    - id: attachment-cache-manager
+      name: 'dsh-attachment-cache'
+      config: {}

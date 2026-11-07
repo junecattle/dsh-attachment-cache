@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Attachment cache manager",
+    "description": "Browse, preview and prune the images and files stored per conversation under attachments"
+  },
+  "panel": "Attachments"
+}
